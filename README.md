@@ -17,7 +17,7 @@
 
 ### Schematic
 
-The board was created using [Kicad](https://www.kicad.org) version 8.0.
+This four layer board was created using [Kicad](https://www.kicad.org) version 8.0.
 
 Click the image below to download a PDF version of the schematic.
 
@@ -54,11 +54,11 @@ The default I/O address setting for this board is 0xA0.
 Check out the [interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/codesmythe/XOSERA_RCBUS/refs/heads/main/XOSERA_RCBUS_V1A_ibom.html)
 for the board.
 
-To obtain a KEMOJO PCB, download these [Gerbers](https://raw.githubusercontent.com/codesmythe/XOSERA_RCBUS/refs/heads/main/XOSERA_RCBUS.zip) for use at your preferred PCB manufacturer. I use JLCPCB.
+To obtain a KEMOJO PCB, download these [Gerbers](https://raw.githubusercontent.com/codesmythe/XOSERA_RCBUS/refs/heads/main/XOSERA_RCBUS_V1A.zip) for use at your preferred PCB manufacturer. I use JLCPCB.
 
 | Component Type     | Reference                  | Qty | Description                                                                                                                  | Part                                                                                     |
 | ------------------ | -------------------------- | --- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| FPGA Dev Board | (Plugs into J1 & J2) | 1 | Upduino 3.1 low cost Lattice iCE40 FPGA board | Purchase from [TinyVision.ai site](https://tinyvision.ai/products/fpga-development-board-upduino-v3-1) or [Tindie](https://www.tindie.com/products/tinyvision_ai/upduino-v31-low-cost-lattice-ice40-fpga-board/?pt=ac_prod_search) |
+| FPGA Dev Board | (Plugs into J1 & J2) | 1 | Upduino 3.1 low cost Lattice iCE40 FPGA board | Purchase from [TinyVision.ai](https://tinyvision.ai/products/fpga-development-board-upduino-v3-1) or [Tindie](https://www.tindie.com/products/tinyvision_ai/upduino-v31-low-cost-lattice-ice40-fpga-board/?pt=ac_prod_search) |
 | Capacitor          | C0                         |   1 | 47uF, Electrolytic, 2.5mm Pitch                                                                                              | Mouser [710-860020673013](https://www.mouser.com/ProductDetail/710-860020673013)         |
 | Capacitor          | C1-C9 |   9 | 0.1 uF, MLCC, 5 mm Pitch                                                                                                     | Mouser [594-K104K15X7RF5TH5](https://www.mouser.com/ProductDetail/594-K104K15X7RF5TH5)   |
 | Capacitor          | C10,C11                    |   2 | 4700pF, MLCC, 5 mm Pitch                                                                                                     | Mouser [594-K472K10X7RF5UH5](https://www.mouser.com/ProductDetail/594-K472K10X7RF5UH5)   |
