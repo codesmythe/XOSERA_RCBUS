@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RCBUS_LOGO")(type "KiCad")(uri "${KIPRJMOD}/RCBUS_LOGO.pretty")(options "")(descr ""))
+  (lib (name "DSUB-15")(type "KiCad")(uri "${KIPRJMOD}/DSUB-15.pretty")(options "")(descr ""))
+)
