@@ -1,8 +1,16 @@
 
 ![Xosera RCBus V1A](images/Xosera_RCBus_V1A.png)
 
-[Xosera](https://github.com/XarkLabs/Xosera) is an FPGA based "retro" graphics adapter created by @Xark. Check out the link to see all of its features. Xosera was originally designed for the rosco_m68k single board computer and the bus interface for that board. But, Xosera features a simple 8-bit data bus with a few control signals.  So, this project is a "port" of Xosera to the [RCBus](https://smallcomputercentral.com/rcbus/) bus interface. 
+[Xosera](https://github.com/XarkLabs/Xosera) is an FPGA based "retro"
+graphics adapter created by @Xark.  Check out the link to see all of
+its features (which are summarized in the image below). Xosera was
+originally designed for the rosco_m68k single board computer and the
+bus interface for that board. But, Xosera features a simple 8-bit data
+bus with a few control signals.  So, this project is a "port" of
+Xosera to the [RCBus](https://smallcomputercentral.com/rcbus/) bus
+interface. 
 
+![Xosera Slide](images/XOSERA_SLIDE.png)
 
 ## Table of Contents
 * [Hardware Documentation](#hardware-documentation)
@@ -102,6 +110,8 @@ For Windows, you will need the correct USB drivers. Installing those drivers is 
 Then for any of the three platforms, at a command line prompt, use the `iceprog` (or `iceprog.exe`) program from the ISS Cad Suite to send the bitstream to the FPGA:
 
     $ iceprog -d i:0x0403:0x6014 xosera_board_vga.bin
+
+*to be expanded*
 
 ## Acknowledgements
 
